@@ -1,0 +1,21 @@
+
+## initializeaza proiectul de git local - creaza un folder cu git ascuns
+git init
+
+## Descarca de pe server un proiect de git
+git colne https://github.com/username/project
+
+
+## Imi arata lista de commituri
+git log 
+git log --oneline
+
+##Arata statusul fisierelor(daca sunt schimbate)
+git status
+git status -s
+
+### Comenzi de creare a commitului
+git add filename
+git add .
+git add filename.*
+git add filename1 filename2 filename3
