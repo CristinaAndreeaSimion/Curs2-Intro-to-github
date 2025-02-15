@@ -16,6 +16,10 @@ git config --global user.email
 ## Deschiderea editorului Studio Visual Code ca edotir default pentru git
 git config --global core.editor "code --wait"
 
+## Denumrea branch-ului initial main
+git config --global init.defaultBranch main
+
+
 ## initializeaza proiectul de git local - creaza un folder cu git ascuns
 git init
 
@@ -55,3 +59,9 @@ git push origin
 ## Pentru a lua codul de pe server
 git pull
 git pull origin
+
+## Pentru lucru cu branch-ul utilizatorului
+git branch
+
+## Redenumirea branch-ului curent in ce este dupa -m
+git branch -m main
